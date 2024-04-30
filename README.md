@@ -3,6 +3,7 @@ Equipment:
 - Intel i7-10700 processor
 - AMD Radeon RX 6600 XT 8 GB graphics card
 - Monitor with a resolution of 2560x1440
+- BCM4360 WIFI/BT
 
 BY:
 - OpenCore 0.9.7

@@ -78,8 +78,8 @@ Version 2.0
 - Apply Sonoma IO kext patch for BCM4360 (requires OCLP 1.4.3)
 
 Version 2.1
-- Added AMFIPass.kext (Use Instead of AMFI=0x80) and removed NVMeFix.kext for Solve AMFI issues in Sonoma
-- Removed AMFI=0x80 for Solve AMFI issues in Sonoma
+- Added AMFIPass.kext (Use Instead of AMFI=0x80) and removed NVMeFix.kext to solve AMFI issues in Sonoma
+- Removed AMFI=0x80 to solve AMFI issues in Sonoma
 
 Issues in Version 2.0:
 - VMWare (unable to boot; check normal operation after applying AMFIPass)

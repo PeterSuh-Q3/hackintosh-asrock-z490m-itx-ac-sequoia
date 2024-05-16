@@ -91,6 +91,9 @@ Issues in Version 2.0:
 - Electron-based Apps
 - Other apps that should not disable AMFI after disabling SIP.
 
+Version 2.1.1
+- Added AirportBrcmFixup.kext and BlueToolFixup.kext (Sonoma bluetooth patch for BCM4360)
+
 SMBIOS removed, need to generate serial numbers
 
 The configuration is posted for informational/educational purposes. I do not guarantee performance on equipment other than mine.

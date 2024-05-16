@@ -77,6 +77,19 @@ Version 2.0
 - Added IntelMausi.kext and LucyRTL8125Ethernet.kext for dual internal ethnernet (1.0Gbps, 2.5Gbps)
 - Apply Sonoma IO kext patch for BCM4360 (requires OCLP 1.4.3)
 
+Version 2.1
+- Added AMFIPass.kext (Use Instead of AMFI=0x80) and removed NVMeFix.kext for Solve AMFI issues in Sonoma
+- Removed AMFI=0x80 for Solve AMFI issues in Sonoma
+[Issues]
+. VMWare (unable to boot; check normal operation after applying AMFIPass)
+. Firefox (does not run; check if it can run after applying AMFIPass)
+. Creative Cloud Apps (CC5.9, Illustrator28.2 crashes when opening file; confirmed normal operation after applying AMFIPass)
+. League of Legends (Available after applying AMFIPass)
+. RIDIBooks (not running; confirm normal operation after applying AMFIPass)
+. Skype (not running; confirm normal operation after applying AMFIPass)
+. Electron-based Apps
+. Other apps that should not disable AMFI after disabling SIP.
+
 SMBIOS removed, need to generate serial numbers
 
 The configuration is posted for informational/educational purposes. I do not guarantee performance on equipment other than mine.

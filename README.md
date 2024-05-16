@@ -80,15 +80,16 @@ Version 2.0
 Version 2.1
 - Added AMFIPass.kext (Use Instead of AMFI=0x80) and removed NVMeFix.kext for Solve AMFI issues in Sonoma
 - Removed AMFI=0x80 for Solve AMFI issues in Sonoma
-[Issues]
-. VMWare (unable to boot; check normal operation after applying AMFIPass)
-. Firefox (does not run; check if it can run after applying AMFIPass)
-. Creative Cloud Apps (CC5.9, Illustrator28.2 crashes when opening file; confirmed normal operation after applying AMFIPass)
-. League of Legends (Available after applying AMFIPass)
-. RIDIBooks (not running; confirm normal operation after applying AMFIPass)
-. Skype (not running; confirm normal operation after applying AMFIPass)
-. Electron-based Apps
-. Other apps that should not disable AMFI after disabling SIP.
+
+Issues in Version 2.0:
+- VMWare (unable to boot; check normal operation after applying AMFIPass)
+- Firefox (does not run; check if it can run after applying AMFIPass)
+- Creative Cloud Apps (CC5.9, Illustrator28.2 crashes when opening file; confirmed normal operation after applying AMFIPass)
+- League of Legends (Available after applying AMFIPass)
+- RIDIBooks (not running; confirm normal operation after applying AMFIPass)
+- Skype (not running; confirm normal operation after applying AMFIPass)
+- Electron-based Apps
+- Other apps that should not disable AMFI after disabling SIP.
 
 SMBIOS removed, need to generate serial numbers
 

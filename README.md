@@ -94,6 +94,9 @@ Issues in Version 2.0:
 Version 2.1.1
 - Added AirportBrcmFixup.kext and BlueToolFixup.kext (Sonoma bluetooth patch for BCM4360)
 
+Version 2.1.2
+- Supports high-speed (5G/10G) instead of USB 3.X 480M
+
 SMBIOS removed, need to generate serial numbers
 
 The configuration is posted for informational/educational purposes. I do not guarantee performance on equipment other than mine.

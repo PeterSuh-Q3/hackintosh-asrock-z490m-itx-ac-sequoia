@@ -9,8 +9,8 @@ Equipment:
 ![Z490M-ITXac(M5)](https://github.com/user-attachments/assets/50742c18-6c9b-44af-8b6e-4e2ef633b406)
 
 BY:
-- OpenCore 0.9.7
-- Sonoma 14.4.1
+- OpenCore 1.0.3
+- Sequoia 15.1
 
 Works:
 - Dual ethnernet (1.0Gbps, 2.5Gbps)
@@ -99,6 +99,9 @@ Version 2.1.1
 
 Version 2.1.2
 - Supports high-speed (5G/10G) instead of USB 3.X 480M
+
+Version 2.2.0
+- Supports Sequoia 15.1
 
 SMBIOS removed, need to generate serial numbers
 
